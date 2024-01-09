@@ -1,0 +1,515 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "341a1a38-93ab-4781-a5bd-3ea4127c8f88",
+            "label": "body",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "6365a83b-b777-4c37-a18d-91beddc52831",
+                    "label": "flying_area_1",
+                    "texture": {
+                        "key": "flying-area"
+                    },
+                    "x": 960,
+                    "y": 540,
+                    "scaleX": 4,
+                    "scaleY": 4,
+                    "alpha": 0.3,
+                    "alphaTopLeft": 0.3,
+                    "alphaTopRight": 0.3,
+                    "alphaBottomLeft": 0.3,
+                    "alphaBottomRight": 0.3,
+                    "tintTopLeft": "#267cf0",
+                    "tintTopRight": "#267cf0",
+                    "tintBottomLeft": "#267cf0",
+                    "tintBottomRight": "#267cf0"
+                },
+                {
+                    "type": "Image",
+                    "id": "8fb50227-ac0e-4861-aa1a-4f94a143c342",
+                    "label": "flying_area",
+                    "texture": {
+                        "key": "filler"
+                    },
+                    "x": 1146.000011920929,
+                    "y": 397,
+                    "scaleX": 3.2,
+                    "scaleY": 2.5,
+                    "tintTopLeft": "#001c32",
+                    "tintTopRight": "#301945",
+                    "tintBottomLeft": "#301945",
+                    "tintBottomRight": "#01182a",
+                    "tintFill": true
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "4d441aec-77f8-4f92-af25-a1503ba1d96e",
+                    "label": "rectangle_1",
+                    "x": 614,
+                    "y": 874,
+                    "strokeColor": "#000000",
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 65,
+                    "height": 45
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "2a3522df-b3e6-4842-917d-d50d2f13edd9",
+                    "label": "rectangle",
+                    "x": 614,
+                    "y": 954,
+                    "strokeColor": "#000000",
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 65,
+                    "height": 45
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "95c81c6c-dbc7-425a-bbc7-c38de6a2bfdf",
+                    "label": "rectangle_2",
+                    "x": 695,
+                    "y": 874,
+                    "strokeColor": "#000000",
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 65,
+                    "height": 45
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "25e5725c-e36f-4e91-851a-55a332379835",
+                    "label": "rectangle_3",
+                    "x": 695,
+                    "y": 954,
+                    "fillColor": "#1e1e1e",
+                    "strokeColor": "#000000",
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 65,
+                    "height": 45
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "50d012f6-d55f-465c-bb25-8e68674bbf3e",
+                    "label": "rectangle_4",
+                    "x": 1350,
+                    "y": 954,
+                    "fillColor": "#1e1e1e",
+                    "strokeColor": "#000000",
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 65,
+                    "height": 45
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "14d88f65-10b8-4717-b9e1-debccfd5f82f",
+                    "label": "rectangle_5",
+                    "x": 1350,
+                    "y": 874,
+                    "strokeColor": "#000000",
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 65,
+                    "height": 45
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "d62adff5-3964-4981-8cf6-f6114d409a91",
+                    "label": "rectangle_6",
+                    "x": 1269,
+                    "y": 954,
+                    "strokeColor": "#000000",
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 65,
+                    "height": 45
+                },
+                {
+                    "type": "Rectangle",
+                    "id": "556b9c8d-dbde-4557-8870-7f56a50ad32f",
+                    "label": "rectangle_7",
+                    "x": 1269,
+                    "y": 874,
+                    "strokeColor": "#000000",
+                    "lineWidth": 2,
+                    "isStroked": true,
+                    "width": 65,
+                    "height": 45
+                },
+                {
+                    "type": "Image",
+                    "id": "e5c25867-6d81-45ca-9b76-d0038d296ad1",
+                    "label": "glow",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "glow"
+                    },
+                    "x": 346,
+                    "y": 802,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "alpha": 0.7,
+                    "alphaTopLeft": 0.7,
+                    "alphaTopRight": 0.7,
+                    "alphaBottomLeft": 0.7,
+                    "alphaBottomRight": 0.7
+                },
+                {
+                    "type": "Sprite",
+                    "id": "b12efcf6-ddc7-482d-8ca6-c3967f340fdf",
+                    "label": "filler",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "filler"
+                    },
+                    "x": 346,
+                    "y": 807,
+                    "scaleX": 3,
+                    "scaleY": 4,
+                    "originX": 1,
+                    "originY": 0,
+                    "alpha": 0.5,
+                    "alphaTopLeft": 0.5,
+                    "alphaTopRight": 0.5,
+                    "alphaBottomLeft": 0.5,
+                    "alphaBottomRight": 0.5
+                },
+                {
+                    "type": "Text",
+                    "id": "9c860636-e5bb-4e85-85f4-27057d18b532",
+                    "label": "multiplier_txt",
+                    "scope": "CLASS",
+                    "x": 1130,
+                    "y": 420,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "alpha": 0.8,
+                    "alphaTopLeft": 0.8,
+                    "alphaTopRight": 0.8,
+                    "alphaBottomLeft": 0.8,
+                    "alphaBottomRight": 0.8,
+                    "align": "center",
+                    "fontSize": "64px",
+                    "fontStyle": "bold italic"
+                },
+                {
+                    "type": "Image",
+                    "id": "86ac36cc-a1fc-4ada-bae4-a00ca42cfbe8",
+                    "label": "airplane",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "airplane"
+                    },
+                    "x": 438,
+                    "y": 757,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "angle": -45,
+                    "flipX": true
+                },
+                {
+                    "type": "Container",
+                    "id": "92142321-75bb-4918-a3d6-722c58871f94",
+                    "label": "container_buttons",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "de2e6b0b-edf3-40d5-ac8c-e70ddde7fab2",
+                            "label": "betButton_1",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "flying-area"
+                            },
+                            "x": 871,
+                            "y": 915,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3,
+                            "tintTopLeft": "#289100",
+                            "tintTopRight": "#289100",
+                            "tintBottomLeft": "#289100",
+                            "tintBottomRight": "#289100",
+                            "tintFill": true
+                        },
+                        {
+                            "type": "Image",
+                            "id": "edac3043-44ad-4fa2-a000-a8dfc3318b8f",
+                            "label": "betButton_2",
+                            "scope": "CLASS",
+                            "texture": {
+                                "key": "flying-area"
+                            },
+                            "x": 1526,
+                            "y": 915,
+                            "scaleX": 0.3,
+                            "scaleY": 0.3,
+                            "tintTopLeft": "#289100",
+                            "tintTopRight": "#289100",
+                            "tintBottomLeft": "#289100",
+                            "tintBottomRight": "#289100",
+                            "tintFill": true
+                        },
+                        {
+                            "type": "Text",
+                            "id": "d27dd530-8b9a-4834-8af3-d58bde743dea",
+                            "label": "betValue1_txt",
+                            "scope": "CLASS",
+                            "x": 871,
+                            "y": 915,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Bet",
+                            "fontSize": "48px",
+                            "fontStyle": "italic"
+                        },
+                        {
+                            "type": "Text",
+                            "id": "e199a7ce-6f07-4863-b31e-4a180fa4cd27",
+                            "label": "betValue2_txt",
+                            "scope": "CLASS",
+                            "x": 1526,
+                            "y": 915,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "Bet",
+                            "fontSize": "48px",
+                            "fontStyle": "italic"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "27f7c248-81b4-48af-a008-75f449cf2f82",
+                    "label": "container_bet_1",
+                    "scope": "CLASS",
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "e3b15378-938e-46f0-9939-04300d298309",
+                            "label": "bet_1_value_1",
+                            "x": 624,
+                            "y": 874,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "1 ",
+                            "fontSize": "42px",
+                            "fontStyle": "italic",
+                            "color": "#dad1d1ff",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.stroke": true,
+                            "shadow.fill": true
+                        },
+                        {
+                            "type": "Text",
+                            "id": "6730695f-5d89-44bd-80c2-6d7fb28f45da",
+                            "label": "bet_1_value_2",
+                            "x": 704,
+                            "y": 874,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "2 ",
+                            "fontSize": "42px",
+                            "fontStyle": "italic",
+                            "color": "#dad1d1ff",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.stroke": true,
+                            "shadow.fill": true
+                        },
+                        {
+                            "type": "Text",
+                            "id": "cbd2a686-fd14-4b0a-9694-1a7e96075364",
+                            "label": "bet_1_value_3",
+                            "x": 624,
+                            "y": 954,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "5 ",
+                            "fontSize": "42px",
+                            "fontStyle": "italic",
+                            "color": "#dad1d1ff",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.stroke": true,
+                            "shadow.fill": true
+                        },
+                        {
+                            "type": "Text",
+                            "id": "908cfbf0-051b-41ae-b3e6-0812cadb106c",
+                            "label": "bet_1_value_4",
+                            "x": 704,
+                            "y": 954,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "10 ",
+                            "fontSize": "42px",
+                            "fontStyle": "italic",
+                            "color": "#dad1d1ff",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.stroke": true,
+                            "shadow.fill": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "id": "a2c0aa56-1409-4a61-aa2b-6d8f34093306",
+                    "label": "container_bet_2",
+                    "scope": "CLASS",
+                    "list": [
+                        {
+                            "type": "Text",
+                            "id": "5d6a3e3d-fffa-4dc8-96c3-dda80ca5effb",
+                            "label": "bet_2_value_1",
+                            "x": 1278,
+                            "y": 874,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "1 ",
+                            "fontSize": "42px",
+                            "fontStyle": "italic",
+                            "color": "#dad1d1ff",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.stroke": true,
+                            "shadow.fill": true
+                        },
+                        {
+                            "type": "Text",
+                            "id": "dd0d306c-84b6-4687-8e71-85743b8dc9c2",
+                            "label": "bet_2_value_2",
+                            "x": 1358,
+                            "y": 874,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "2 ",
+                            "fontSize": "42px",
+                            "fontStyle": "italic",
+                            "color": "#dad1d1ff",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.stroke": true,
+                            "shadow.fill": true
+                        },
+                        {
+                            "type": "Text",
+                            "id": "e9ec6e83-154f-48f6-ac10-e32ecf07d95b",
+                            "label": "bet_2_value_3",
+                            "x": 1278,
+                            "y": 954,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "5 ",
+                            "fontSize": "42px",
+                            "fontStyle": "italic",
+                            "color": "#dad1d1ff",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.stroke": true,
+                            "shadow.fill": true
+                        },
+                        {
+                            "type": "Text",
+                            "id": "db7ec442-2bf4-4c35-ae0e-faa293be872b",
+                            "label": "bet_2_value_4",
+                            "x": 1358,
+                            "y": 954,
+                            "originX": 0.5,
+                            "originY": 0.5,
+                            "text": "10 ",
+                            "fontSize": "42px",
+                            "fontStyle": "italic",
+                            "color": "#dad1d1ff",
+                            "shadow.offsetX": 5,
+                            "shadow.offsetY": 5,
+                            "shadow.stroke": true,
+                            "shadow.fill": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Text",
+                    "id": "8cc188b8-3211-4a68-92db-239b2305bed8",
+                    "label": "totalBalance_txt",
+                    "scope": "CLASS",
+                    "x": 722,
+                    "y": 50,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "500",
+                    "align": "center",
+                    "fontSize": "64px",
+                    "fontStyle": "bold italic",
+                    "color": "#aba9a9ff"
+                },
+                {
+                    "type": "Text",
+                    "id": "1950ad38-0ffe-408f-b1a8-3409cef9b710",
+                    "label": "balance_txt",
+                    "scope": "METHOD",
+                    "x": 509,
+                    "y": 50,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Balance:",
+                    "align": "center",
+                    "fontSize": "64px",
+                    "fontStyle": "bold italic",
+                    "color": "#aba9a9ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "444ba46f-3108-4368-82a5-d6776d1df5f7",
+                    "label": "start_button",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "button"
+                    },
+                    "x": 1146,
+                    "y": 397
+                },
+                {
+                    "type": "Image",
+                    "id": "2849c610-47ca-42fc-aaf8-cd733bac5927",
+                    "label": "airplane_1",
+                    "texture": {
+                        "key": "airplane"
+                    },
+                    "x": 195,
+                    "y": 442,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5,
+                    "angle": -67,
+                    "flipX": true,
+                    "alpha": 0.09,
+                    "alphaTopLeft": 0.09,
+                    "alphaTopRight": 0.09,
+                    "alphaBottomLeft": 0.09,
+                    "alphaBottomRight": 0.09
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

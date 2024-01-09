@@ -1,0 +1,68 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/airplane.png",
+                "type": "image",
+                "key": "airplane"
+            },
+            {
+                "url": "assets/images/balance-bar.png",
+                "type": "image",
+                "key": "balance-bar"
+            },
+            {
+                "url": "assets/images/bet-button.png",
+                "type": "image",
+                "key": "bet-button"
+            },
+            {
+                "url": "assets/images/button.png",
+                "type": "image",
+                "key": "button"
+            },
+            {
+                "url": "assets/images/filler.png",
+                "type": "image",
+                "key": "filler"
+            },
+            {
+                "url": "assets/images/flying-area.png",
+                "type": "image",
+                "key": "flying-area"
+            },
+            {
+                "url": "src/scripts/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": "assets/images/glow.png",
+                "type": "image",
+                "key": "glow"
+            },
+            {
+                "url": "src/scripts/InputManager.js",
+                "type": "script",
+                "key": "InputManager"
+            },
+            {
+                "url": "src/scripts/SocketManager.js",
+                "type": "script",
+                "key": "SocketManager"
+            },
+            {
+                "url": "src/scripts/SoundManager.js",
+                "type": "script",
+                "key": "SoundManager"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
